@@ -10,7 +10,7 @@ using namespace std;
 #define AI (1.0)
 #define MD (0.5)
 #define DELAY_THRES (100)
-#define EWMA_ALPHA (0.5)
+#define EWMA_ALPHA (0.7)
 #define TIMEOUT (100)
 #define TICK_LEN (20.0)
 #define NUM_RATIOS ((int) 50)
