@@ -1,10 +1,19 @@
 #ifndef CONTROLLER_HH
 #define CONTROLLER_HH
 
+#define SCHEME(3)
+#define INITIAL_CWND (15.0)
+#define AI (1.0)
+#define MD (0.5)
+#define DELAY_THRES (100)
+#define EWMA_ALPHA (0.7)
+#define TIMEOUT (100)
+#define TICK_LEN (20.0)
 #define NUM_RATIOS ((int) 50)
 #define TARGET_DELAY (100)
-#define TICK_LEN (20.0)
 #define DELAY_TICKS ((int) (TARGET_DELAY / TICK_LEN))
+#define MIN_CWND (10.0)
+#define PERC (0.10)
 
 #include <cstdint>
 

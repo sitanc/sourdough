@@ -62,7 +62,7 @@ int compareDoubles (const void * a, const void * b) {
 void Controller::update_ratio( void )
 {
   double ratios [NUM_RATIOS] = { };
-  for ( int i = 0; i < NUM_RATIOS; i++ ) {a
+  for ( int i = 0; i < NUM_RATIOS; i++ ) {
     /* computes the NUM_RATIOS previously observed ratios */
     ratios[i] = ((prev_firsts_[i+DELAY_TICKS] - prev_firsts_[i])/(DELAY_TICKS * TICK_LEN)) / prev_lambdas_[i];
   }
