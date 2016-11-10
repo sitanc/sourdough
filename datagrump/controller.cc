@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#define SCHEME(3)
+#define SCHEME (3)
 #define INITIAL_CWND (15.0)
 #define AI (1.0)
 #define MD (0.5)
